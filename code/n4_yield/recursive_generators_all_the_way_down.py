@@ -2,7 +2,7 @@ import os
 
 
 def main():
-    root_dir = '/Users/mkennedy/github/talk-python/courses/jumpstart-demos/transcripts'
+    root_dir = '/Users/mkennedy/github/talk-python/courses/jumpstart/jumpstart-demos/transcripts'
 
     files = get_files(root_dir)
     print("Found these files")

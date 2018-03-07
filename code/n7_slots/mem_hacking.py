@@ -41,9 +41,9 @@ data = []
 t0 = datetime.datetime.now()
 
 # Loop 1: Tuples
-# print("tuple")
-# for n in range(count):
-#     data.append((1 + n, 2 + n, 3 + n, 4 + n))
+print("tuple")
+for n in range(count):
+    data.append((1 + n, 2 + n, 3 + n, 4 + n))
 
 # # Loop 2: Named tuple
 # print("named tuple")
@@ -56,9 +56,9 @@ t0 = datetime.datetime.now()
 #     data.append(MutableThing(1 + n, 2 + n, 3 + n, 4 + n))
 #
 # # Loop 4: Slot based immutable class
-print("slot based class")
-for n in range(count):
-  data.append(ImmutableThing(1 + n, 2 + n, 3 + n, 4 + n))
+# print("slot based class")
+# for n in range(count):
+#   data.append(ImmutableThing(1 + n, 2 + n, 3 + n, 4 + n))
 
 t1 = datetime.datetime.now()
 
