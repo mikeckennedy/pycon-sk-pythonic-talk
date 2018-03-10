@@ -1,4 +1,3 @@
-
 def connect_v1(user, server, replicate, use_ssl):
     print("Connect v1, called with: ")
     print(f"User = {user}")
@@ -6,6 +5,7 @@ def connect_v1(user, server, replicate, use_ssl):
     print(f"Replicate = {replicate}")
     print(f"Use SSL = {use_ssl}")
     print()
+
 
 def connect_v2(*, user, server, replicate, use_ssl):
     print("Connect v2, called with: ")

@@ -21,5 +21,5 @@ data = {'day': 'Saturday', 'office': 'Home office', 'other': 'UNUSED'}
 print("On {day} I was working in my {office}!".format(**data))
 
 # In Python 3.6
-print(f"Hi, I'm {name} and I'm {age+1 } years old.".format(name=name, age=age))
+print(f"Hi, I'm {name} and I'm {age+1} years old.".format(name=name, age=age))
 # print: Hi, I'm Michael and I'm 44 years old.

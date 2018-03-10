@@ -16,10 +16,10 @@ ImmutableThingTuple = collections.namedtuple("ImmutableThingTuple", "a b c d")
 
 class MutableThing:
     def __init__(self, a, b, c, d):
-        self.a = a
-        self.b = b
-        self.c = c
-        self.d = d
+        self.variable_a = a
+        self.variable_b = b
+        self.variable_c = c
+        self.variable_d = d
 
 
 class ImmutableThing:
